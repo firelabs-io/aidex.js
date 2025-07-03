@@ -1,0 +1,36 @@
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#side {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#textsec {
+    flex: 1;
+    height: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: lightgrey;
+    
+}
+#textsec pre {
+    font-size: 16px;
+}
+#textsec h1 {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
