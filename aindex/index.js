@@ -94,7 +94,7 @@ function SideList(){
 
 function PageInit(){
     c.NewVarible('section', 'Intruduction')
-    c.element('link', '', '', {rel: 'stylesheet', href: '/aidex/aindex/style.css'})
+    c.element('link', '', '', {rel: 'stylesheet', href: 'aindex/style.css'})
     c.element('div', 'main')
     c.element('div', 'side', 'main')
     c.element('div', 'textsec', 'main')
